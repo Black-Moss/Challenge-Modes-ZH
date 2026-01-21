@@ -104,7 +104,7 @@ namespace ChallengeModes
         public const string pluginName = "Challenge Modes";
 
         // Year.Month.Version.Bugfix
-        public const string pluginVersion = "26.1.3.0";
+        public const string pluginVersion = "26.1.2.0";
 
         public static ChallengeModes Instance;
 
