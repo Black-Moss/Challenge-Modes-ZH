@@ -128,7 +128,7 @@ namespace ChallengeModes
             Instance = this;
             logger = Logger;
 
-            logger.LogInfo("Awake()运行——挑战模式运行中！");
+            logger.LogInfo("Awake()运行——挑战模式修改器运行中！");
 
             harmony = new Harmony(pluginGuid);
 
