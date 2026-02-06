@@ -468,7 +468,7 @@ namespace ChallengeModes
             GameObject dropdownToggleText = new GameObject("Label");
             dropdownToggleText.transform.SetParent(dropdownToggle.transform, false);
             TextMeshProUGUI dropdownToggleTMP = dropdownToggleText.AddComponent<TextMeshProUGUI>();
-            dropdownToggleTMP.text = "Modifiers";
+            dropdownToggleTMP.text = "困难模式修改器";
             dropdownToggleTMP.font = Resources.FindObjectsOfTypeAll<TMP_FontAsset>().FirstOrDefault(f => f.name.Contains("Retro GamingPix"));
             dropdownToggleTMP.fontSize = 15;
             ContentSizeFitter dropdownToggleTextFitter = dropdownToggleText.AddComponent<ContentSizeFitter>();
