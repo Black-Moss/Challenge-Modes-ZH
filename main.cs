@@ -173,7 +173,7 @@ namespace ChallengeModes
                 if (isOkayToPatch == -1)
                 {
                     harmony.Unpatch(AccessTools.Method(typeof(PreRunScript), "Awake"), HarmonyPatchType.Prefix);
-                    logger.LogError($"游戏版本不是{activeVersion}，正在推出模组");
+                    logger.LogError($"游戏版本不是{activeVersion}，正在退出模组");
                     yield break;
                 }
                 yield return null;
