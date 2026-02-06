@@ -50,43 +50,43 @@ namespace ChallengeModes
 
         public static Dictionary<string, ModifierInfo> modifierOptions = new Dictionary<string, ModifierInfo>
         {
-            ["10NeuralBoosters"] = new ModifierInfo() { name = "10 Neural Boosters", description = "Boosts your stats 10 times" },
-            ["1mSoundCannon"] = new ModifierInfo() { name = "1m Sound Cannon", description = "Spawns a sound cannon every minute" },
-            ["Ablutophobia"] = new ModifierInfo() { name = "Ablutophobia", description = "Always 100% dirty" },
-            ["Armless"] = new ModifierInfo() { name = "Armless", description = "No arms. Crazy" },
-            ["Blind"] = new ModifierInfo() { name = "Blind", description = "No eyes. Also crazy" },
-            ["Cancer"] = new ModifierInfo() { name = "Cancer", description = "Constant radiation growth" },
-            ["ConstantDepression"] = new ModifierInfo() { name = "Constant Depression", description = "Mood is always below 0" },
-            ["ConstantEarthquakes"] = new ModifierInfo() { name = "Constant Earthquakes", description = "Earthquakes unless 25 energy or less", author = "3_femtanyl_3" },
-            ["ConstantSepsis"] = new ModifierInfo() { name = "Constant Sepsis", description = "You will always have at least one infection" },
-            ["Deaf"] = new ModifierInfo() { name = "Deaf", description = "Zero volume. Have fun" },
-            ["Dyslexia"] = new ModifierInfo() { name = "Dyslexia", description = "Text is always a little distorted" },
-            ["Flimsy"] = new ModifierInfo() { name = "Flimsy", description = "0 strength, like a milky!" },
-            ["GlassBones"] = new ModifierInfo() { name = "Glass Bones", description = "Stronger fall damage + shrapnel" },
-            ["GlassCannon"] = new ModifierInfo() { name = "Glass Cannon", description = "17 strength but 0 resilience" },
-            ["Hollowed"] = new ModifierInfo() { name = "Hollowed", description = "You start hollowed" },
-            ["HostileTraders"] = new ModifierInfo() { name = "Hostile Traders", description = "All traders will kick you out" },
-            ["ImmediateRadiationLine"] = new ModifierInfo() { name = "Immediate Radiation Line", description = "The radiation line moves immediately" },
-            ["ManySalads"] = new ModifierInfo() { name = "Many Salads", description = "Spawns 20-100 salads every layer" },
-            ["Narcolepsy"] = new ModifierInfo() { name = "Narcolepsy", description = "Randomly fall asleep (zzz)" },
-            ["RandomActivation"] = new ModifierInfo() { name = "Random Activation", description = "Randomly toggles a modifier", author = "pablo.gonzalez.2009" },
-            ["RandomExplode"] = new ModifierInfo() { name = "Random Explode", description = "1/480 chance to blow up every 10 seconds" },
-            ["SuperSalad"] = new ModifierInfo() { name = "Super Salad", description = "A super strong salad spawns and tracks you down every layer", author = "3_femtanyl_3" },
-            //["UntemperedGlass"] = new ModifierInfo() { name = "Untempered Glass", description = "All damage is 10 times stronger", author = "3_femtanyl_3" },
-            ["ThousandsOfThem"] = new ModifierInfo() { name = "Thousands of Them", description = "Every few minutes, you get attacked by cave ticks", author = "3_femtanyl_3" },
+            ["10NeuralBoosters"] = new ModifierInfo() { name = "神经增强剂", description = "将你的属性提高10倍" },
+            ["1mSoundCannon"] = new ModifierInfo() { name = "一分一个音波炮", description = "每分钟生成一个音波炮" },
+            ["Ablutophobia"] = new ModifierInfo() { name = "反洁", description = "一直100%污垢" },
+            ["Armless"] = new ModifierInfo() { name = "无臂", description = "你疯了吗" },
+            ["Blind"] = new ModifierInfo() { name = "失明", description = "你和上面那个一样" },
+            ["Cancer"] = new ModifierInfo() { name = "辐射源", description = "辐射持续增长" },
+            ["ConstantDepression"] = new ModifierInfo() { name = "重度抑郁", description = "情绪一直为0" },
+            ["ConstantEarthquakes"] = new ModifierInfo() { name = "重度地震", description = "持续地震除非25能量以下", author = "3_femtanyl_3" },
+            ["ConstantSepsis"] = new ModifierInfo() { name = "持续败血症", description = "总会至少感染一种" },
+            ["Deaf"] = new ModifierInfo() { name = "你尔多隆吗", description = "听不见，根本听不见" },
+            ["Dyslexia"] = new ModifierInfo() { name = "阅读障碍", description = "啥啥啥，这写的是啥" },
+            ["Flimsy"] = new ModifierInfo() { name = "软弱无能", description = "就像牛奶一样" },
+            ["GlassBones"] = new ModifierInfo() { name = "脆骨症", description = "更强的坠落伤害与碎片" },
+            ["GlassCannon"] = new ModifierInfo() { name = "玻璃炮", description = "17力量，但0韧性" },
+            ["Hollowed"] = new ModifierInfo() { name = "空心灯", description = "感觉身体被清空" },
+            ["HostileTraders"] = new ModifierInfo() { name = "不受欢迎", description = "所有商人都会把你赶出去" },
+            ["ImmediateRadiationLine"] = new ModifierInfo() { name = "急速辐射线", description = "辐射线马上移动" },
+            ["ManySalads"] = new ModifierInfo() { name = "一堆长老", description = "每层生成20-100只脊背兽长老" },
+            ["Narcolepsy"] = new ModifierInfo() { name = "嗜睡", description = "任何时候都会睡...着..." },
+            ["RandomActivation"] = new ModifierInfo() { name = "随机修改器", description = "随机启动修改器", author = "pablo.gonzalez.2009" },
+            ["RandomExplode"] = new ModifierInfo() { name = "随机爆炸", description = "每10秒都有1/480概率爆炸" },
+            ["SuperSalad"] = new ModifierInfo() { name = "超级长老", description = "一只超强的脊背兽长老会刷新到你所在的每一层", author = "3_femtanyl_3" },
+            //["UntemperedGlass"] = new ModifierInfo() { name = "全身不耐受", description = "所有伤害强10倍", author = "3_femtanyl_3" },
+            ["ThousandsOfThem"] = new ModifierInfo() { name = "成千上万", description = "每隔几分钟，你就会被洞穴蜱虫攻击", author = "3_femtanyl_3" },
 
-            ["Bean"] = new ModifierInfo() { name = "Bean", description = "No jaw, no limbs, can't hear, and hollow", author = "milky.50262" },
-            //["Chernobyl"] = new ModifierInfo() { name = "Chernobyl", description = "Start with radiation sickness", author = "milky.50262" },
-            ["ShellShocked"] = new ModifierInfo() { name = "Shell Shocked", description = "100% trauma... What did you see", author = "milky.50262" },
-            ["Halfed"] = new ModifierInfo() { name = "Halfed", description = "1 arm, 1 leg, 1 eye!", author = "milky.50262" },
-            ["MyToes"] = new ModifierInfo() { name = "MY TOES", description = "Obese, broken feet, brain damage. Tough landing...", author = "milky.50262" },
-            ["ThisExpieDeservesWorse"] = new ModifierInfo() { name = "This Expie Deserves Worse", description = "Unchipped, no jaw, brain damage, 60 trauma, broken hands, and no eating plants. Start with painkillers", author = "milky.50262" },
-            ["NoStats"] = new ModifierInfo() { name = "No Stats", description = "0 intelligence, 0 resilience, 0 strength. Its a miracle you are alive", author = "milky.50262" },
-            ["Scourging"] = new ModifierInfo() { name = "Scourging", description = "Destroy/kill as many creatures/traps/plants. Hands/traps only, 25 strength", author = "milky.50262" },
-            ["TheyDrilledHowFar"] = new ModifierInfo() { name = "They Drilled HOW FAR?!", description = "Start at layer 5, kill as many salads as possible and live as long as possible. 15 STR/RES, 14 INT", author = "milky.50262", goals = new string[] { "depth", "kills" } },
+            ["Bean"] = new ModifierInfo() { name = "人棍", description = "你没有下巴，没有四肢，也听不见任何东西，你被掏空了/洗脑了", author = "milky.50262" },
+            //["Chernobyl"] = new ModifierInfo() { name = "切尔诺贝利", description = "先出现放射病。如果不采取措施，血胸会杀死你", author = "milky.50262" },
+            ["ShellShocked"] = new ModifierInfo() { name = "精神创伤", description = "从100创伤开始", author = "milky.50262" },
+            ["Halfed"] = new ModifierInfo() { name = "半条命", description = "你只有一条胳膊、一条腿和一只眼睛", author = "milky.50262" },
+            ["MyToes"] = new ModifierInfo() { name = "我脚！", description = "双脚骨折、脑组织完整度受损80%、濒临窒息", author = "milky.50262" },
+            ["ThisExpieDeservesWorse"] = new ModifierInfo() { name = "还能更糟", description = "无芯片、没有下巴、大脑受损、受到60伤害、手骨折、不吃植物。从止痛药开始", author = "milky.50262" },
+            ["NoStats"] = new ModifierInfo() { name = "无属性", description = "你的所有属性（智力、抗性和力量）都是0，升级需要很长时间", author = "milky.50262" },
+            ["Scourging"] = new ModifierInfo() { name = "大挖特挖", description = "摧毁/消灭尽可能多的生物/陷阱/植物。仅限手或陷阱，25力量", author = "milky.50262" },
+            ["TheyDrilledHowFar"] = new ModifierInfo() { name = "它们钻了多深？", description = "从第5层开始，尽可能多地消灭脊背兽长老，并尽量存活更久。15力量/耐力、14智力", author = "milky.50262", goals = new string[] { "depth", "kills" } },
 
-            ["BloodBath"] = new ModifierInfo() { name = "Blood Bath", description = "Reach layer 5 without fixing external bleeding. Spawn with a plasma cutter and battery", author = "milky.50262", goals = new string[] { "custom", "layer" } },
-            ["NoTracesLeftBehind"] = new ModifierInfo() { name = "No Traces Left Behind", description = "Cannot break blocks by hand or open crates or trade. Can only destroy plants or kill enemies or expie traders (only expie traders)", author = "milky.50262", goals = new string[] { "custom", "layer" } },
+            ["BloodBath"] = new ModifierInfo() { name = "浴血奋战", description = "通过第5层才能阻止你的流血，自带慢点等离子切割器", author = "milky.50262", goals = new string[] { "custom", "layer" } },
+            ["NoTracesLeftBehind"] = new ModifierInfo() { name = "不装饰你的梦", description = "你不能破坏方块（坠落、敌人、爆炸物等造成的方块破坏不算在内），你不能打开任何箱子，你只能通过破坏植物来获取食物，你不能进行交易。你只能击杀敌人和商人，而且只能击杀Experiment", author = "milky.50262", goals = new string[] { "custom", "layer" } },
         };
 
         public static List<ModifierInfo> modifiers = new List<ModifierInfo>();
@@ -128,7 +128,7 @@ namespace ChallengeModes
             Instance = this;
             logger = Logger;
 
-            logger.LogInfo("Awake() ran - mod loaded!");
+            logger.LogInfo("Awake()运行——挑战模式运行中！");
 
             harmony = new Harmony(pluginGuid);
 
@@ -145,7 +145,7 @@ namespace ChallengeModes
                 byte[] embeddedFileSha256 = sha256.ComputeHash(fileInfo.Item2);
                 if (!embeddedFileSha256.SequenceEqual(existingFileSha256))
                 {
-                    Log("Font hash isn't the same, overwriting");
+                    Log("字体文件哈希不一样，正在覆盖");
                     File.WriteAllBytes(fontPath, fileInfo.Item2);
                 }
             }
@@ -173,7 +173,7 @@ namespace ChallengeModes
                 if (isOkayToPatch == -1)
                 {
                     harmony.Unpatch(AccessTools.Method(typeof(PreRunScript), "Awake"), HarmonyPatchType.Prefix);
-                    logger.LogError($"Game version is not {activeVersion}, mod exiting...");
+                    logger.LogError($"游戏版本不是{activeVersion}，正在推出模组");
                     yield break;
                 }
                 yield return null;
@@ -190,12 +190,12 @@ namespace ChallengeModes
                     for (int i = 0; i < splitName.Length; i++)
                         splitName[i] = splitName[i].Replace("$", "_");
                     if (splitName.Length < 3)
-                        throw new Exception($"Patch method is named incorrectly\nPlease make sure the Patch method is named in the following pattern:\n\tTargetClass_TargetMethod_PatchType[_Version]");
+                        throw new Exception($"补丁方法命名不正确\n请确保补丁方法的命名符合以下模式：\n\t目标类_目标方法_补丁类型[_版本]");
 
                     if (splitName.Length >= 4)
                         if (splitName[3] != activeVersion)
                         {
-                            Log($"{patch.Name} is not supported by version {activeVersion}");
+                            Log($"{patch.Name}不支持{activeVersion}版本");
                             continue;
                         }
 
@@ -239,7 +239,7 @@ namespace ChallengeModes
                         case MethodType.Constructor:
                         case MethodType.StaticConstructor:
                         default:
-                            throw new Exception($"Unknown patch method\nPatch method type \"{targetMethodType}\" currently has no handling");
+                            throw new Exception($"未知补丁方法\n补丁方法类型 \"{targetMethodType}\" 当前没有处理");
                     }
 
                     List<string> validPatchTypes = new List<string>
@@ -250,7 +250,7 @@ namespace ChallengeModes
                     };
                     if (ogScript == null || patchScript == null || !validPatchTypes.Contains(patchType))
                     {
-                        throw new Exception("Patch method is named incorrectly\nPlease make sure the Patch method is named in the following pattern:\n\tTargetClass_TargetMethod_PatchType[_Version]");
+                        throw new Exception($"补丁方法命名不正确\n请确保补丁方法的命名符合以下模式：\n\t目标类_目标方法_补丁类型[_版本]");
                     }
                     HarmonyMethod harmonyMethod = new HarmonyMethod(patchScript)
                     {
@@ -279,7 +279,7 @@ namespace ChallengeModes
                 }
                 catch (Exception exception)
                 {
-                    logger.LogError($"Failed to patch {patch.Name}");
+                    logger.LogError($"{patch.Name} 补丁失败");
                     logger.LogError(exception);
                 }
             }
@@ -844,7 +844,7 @@ namespace ChallengeModes
                         }
                         break;
 
-                    case "1m Sound Cannon":
+                    case "一分一个音波炮":
                         if (!body.conscious)
                             timers["soundCannonTimer"] = 0f;
                         if (timers["soundCannonTimer"] > 360f)
@@ -870,7 +870,7 @@ namespace ChallengeModes
                         }
                         break;
 
-                    case "Ablutophobia":
+                    case "反洁":
                         body.dirtyness = 100f;
                         break;
 
@@ -957,7 +957,7 @@ namespace ChallengeModes
                 {
                     switch (modifier.name)
                     {
-                        case "Hollowed":
+                        case "空心灯":
                             skipMindWipeStart = true;
                             if (!body.GetComponent<MindwipeScript>())
                             {
@@ -967,13 +967,13 @@ namespace ChallengeModes
                             }
                             break;
 
-                        case "Flimsy":
+                        case "软弱无能":
                             body.skills.STR = 0;
                             body.skills.expSTR = 0;
                             body.skills.UpdateExpBoundaries();
                             break;
 
-                        case "Armless":
+                        case "无臂":
                             body.LimbByName("UpArmF").Dismember();
                             body.LimbByName("UpArmB").Dismember();
                             body.LimbByName("UpTorso").skinHealth = 100f;
@@ -982,14 +982,14 @@ namespace ChallengeModes
                             body.LimbByName("UpTorso").pain = 0f;
                             break;
 
-                        case "Blind":
+                        case "失明":
                             body.RemoveEye();
                             body.RemoveEye();
                             body.limbs[0].pain = 0f;
                             body.limbs[0].bleedAmount = 0f;
                             break;
 
-                        case "10 Neural Boosters":
+                        case "神经增强剂":
                             body.usedNeuralBooster = true;
                             for (int i = 0; i < 10; i++)
                             {
@@ -1000,7 +1000,7 @@ namespace ChallengeModes
                             }
                             break;
 
-                        case "Glass Cannon":
+                        case "玻璃炮":
                             if (!modifiers.Contains(modifierOptions["Flimsy"]))
                             {
                                 body.skills.STR = 17;
@@ -1011,7 +1011,7 @@ namespace ChallengeModes
                             body.skills.UpdateExpBoundaries();
                             break;
 
-                        case "Bean":
+                        case "人棍":
                             body.Disfigure();
                             body.hearingLoss = int.MaxValue;
                             body.LimbByName("UpArmF").Dismember();
@@ -1038,11 +1038,11 @@ namespace ChallengeModes
                             }
                             break;
 
-                        case "Shell Shocked":
+                        case "精神创伤":
                             body.traumaAmount = 100f;
                             break;
 
-                        case "Halfed":
+                        case "半条命":
                             body.RemoveEye();
                             body.LimbByName("UpArmF").Dismember();
                             body.LimbByName("ThighF").Dismember();
@@ -1058,14 +1058,14 @@ namespace ChallengeModes
                             }
                             break;
 
-                        case "MY TOES":
+                        case "我脚！":
                             body.weightOffset = 60f;
                             body.LimbByName("FootF").broken = true;
                             body.LimbByName("FootB").broken = true;
                             body.brainHealth = 80f;
                             break;
 
-                        case "This Expie Deserves Worse":
+                        case "还能更糟":
                             WorldGeneration.world.unchippedMode = true;
                             body.disfigured = true;
                             body.brainHealth = 65f;
@@ -1075,7 +1075,7 @@ namespace ChallengeModes
                             body.AutoPickUpItem(UnityEngine.Object.Instantiate(Resources.Load<GameObject>("painkillers"), body.transform.position, Quaternion.identity).GetComponent<Item>());
                             break;
 
-                        case "No Stats":
+                        case "无属性":
                             body.skills.STR = 0;
                             body.skills.RES = 0;
                             body.skills.INT = 0;
@@ -1085,12 +1085,12 @@ namespace ChallengeModes
                 }
                 switch (modifier.name)
                 {
-                    case "Deaf":
+                    case "你尔多隆吗":
                         body.hearingLoss = int.MaxValue;
                         AudioListener.volume = 0f;
                         break;
 
-                    case "Many Salads":
+                    case "一堆长老":
                         int randLoopCount = UnityEngine.Random.Range(10, 100);
                         Log("Spawn goal: " + randLoopCount);
                         List<Vector2> coordArray = new List<Vector2>();
@@ -1106,17 +1106,17 @@ namespace ChallengeModes
                             }
                             coordArray.Add(coords);
                             i++;
-                            Log("Elder Thornback spawned at " + coords.x + " " + coords.y);
+                            Log("脊背兽长老生成在：" + coords.x + " " + coords.y);
                             UnityEngine.Object.Instantiate(Resources.Load("thornbackelder"), coords, Quaternion.identity);
                         }
-                        Log("Total Elder Thornbacks Spawned: " + coordArray.Count + " / " + randLoopCount);
+                        Log("脊背兽长老生成了" + coordArray.Count + " / " + randLoopCount);
                         break;
 
-                    case "Immediate Radiation Line":
+                    case "急速辐射线":
                         RadiationLine.line.active = true;
                         break;
 
-                    case "Super Salad":
+                    case "超级长老":
                         Vector2 spawnCoord = new Vector2(UnityEngine.Random.Range(__instance.width / 2 * -1, __instance.width / 2), UnityEngine.Random.Range(__instance.height / 2 * -1, __instance.height / 2));
                         thornbackObj = (GameObject)UnityEngine.Object.Instantiate(Resources.Load("thornbackelder"), spawnCoord, Quaternion.identity);
                         thornbackMe = thornbackObj.GetComponent<SpiderHandler>();
@@ -1128,7 +1128,7 @@ namespace ChallengeModes
                         break;
                 }
             }
-            Log("Finished applying game start challenges");
+            Log("补丁已完成，开始挑战");
         }
 
         [HarmonyPatch(typeof(Body), "UseItem")]

@@ -20,7 +20,7 @@ namespace ChallengeModes.Helpers
             fileName = asm.GetManifestResourceNames().FirstOrDefault(n => n.EndsWith(fileName));
             if (fileName == null)
             {
-                Debug.LogError($"File by the name of {fileName} does not exist. Check capitalization and file extension");
+                Debug.LogError($"名为 {fileName} 的文件不存在，请检查大小写和文件扩展名");
                 return (null, null);
             }
 
@@ -28,7 +28,7 @@ namespace ChallengeModes.Helpers
             Stream stream = asm.GetManifestResourceStream(fileName);
             if (!fileName.StartsWith(Assembly.GetExecutingAssembly().GetName().Name + "." + (folderName != null ? folderName + "." : "")))
             {
-                Debug.LogError($"File does not exist in embedded resources");
+                Debug.LogError($"文件在嵌入资源中不存在");
                 return (null, null);
             }
             int lastDot = fileName.LastIndexOf(".");
@@ -75,7 +75,7 @@ namespace ChallengeModes.Helpers
                     break;
 
                 default:
-                    Debug.LogError($"Could not load audio file {fileName}: Unknown file extension {fileExt}");
+                    Debug.LogError($"无法加载名为 {fileName} 的音频文件: 未知扩展名 {fileExt}");
                     return null;
             }
 
